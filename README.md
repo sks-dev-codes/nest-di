@@ -45,6 +45,31 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+
+## During setup and runnig 
+
+```bash
+# creating new project
+$ nest new di
+
+# generating computer module
+$ nest g module computer
+
+# generating modules
+$ nest g module disk 
+$ nest g module power
+$ nest g module cpu
+
+# generating services
+$ nest g service cpu
+$ nest g service power
+$ nest g service disk
+
+# generating controller
+$ nest g controller computer
+
+```
+
 ## Run tests
 
 ```bash
